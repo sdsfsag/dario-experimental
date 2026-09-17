@@ -1,3 +1,5 @@
-> Training in progress — 100% finished — 1/2 learning processes completed
+> Training in progress — finished 
 
-> Training in progress — 92% finished — 2/2 learning process in progress
+> Training in progress — finished
+
+> Next training 9.18 starts at 6-7am to ~1-2pm - probably from a total of 312.7 million processed training tokens to 1.3-1.6 billion.
