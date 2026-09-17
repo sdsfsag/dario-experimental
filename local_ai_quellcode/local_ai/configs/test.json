@@ -1,0 +1,31 @@
+{
+  "model": {
+    "vocab_size": 32768,
+    "n_layers": 2,
+    "n_heads": 4,
+    "n_kv_heads": 2,
+    "embedding_dim": 128,
+    "ffn_dim": 352,
+    "context_length": 256,
+    "dropout": 0.0,
+    "rope_theta": 10000.0,
+    "norm_eps": 1e-06,
+    "gradient_checkpointing": false
+  },
+  "training": {
+    "steps": 100,
+    "batch_size": 1,
+    "grad_accum": 1,
+    "lr": 0.0003,
+    "min_lr_ratio": 0.1,
+    "warmup_steps": 10,
+    "weight_decay": 0.1,
+    "grad_clip": 1.0,
+    "eval_interval": 100,
+    "eval_batches": 20,
+    "save_interval": 500,
+    "log_interval": 10,
+    "seed": 42,
+    "precision": "auto"
+  }
+}

@@ -1,0 +1,14 @@
+Python ist eine Programmiersprache. Eine Funktion kann Eingaben verarbeiten und ein Ergebnis zurückgeben. Mit einer Schleife lassen sich dieselben Schritte für mehrere Elemente ausführen. Aussagekräftige Namen helfen beim Lesen von Programmen. Tests überprüfen konkrete Erwartungen an das Verhalten. Ein bestandener Test beweist nicht, dass jedes mögliche Problem ausgeschlossen ist. Kleine Funktionen können leichter einzeln geprüft werden. Fehlermeldungen enthalten oft Hinweise auf die Ursache eines Problems.
+
+In einem Gespräch hilft es, die eigentliche Frage zu beantworten. Wenn eine Angabe fehlt, kann eine gezielte Rückfrage helfen. Unsicherheit sollte kenntlich gemacht werden. Eine frühere Aussage kann sich durch neue Informationen ändern. Dann ist es sinnvoll, die Änderung und ihren Grund zu erklären. Erinnerungen können lückenhaft oder veraltet sein. Ein gespeicherter Hinweis ist kein Beweis für seine Richtigkeit. Neue Angaben können ältere Angaben ersetzen.
+
+A language model predicts the next token from earlier tokens. During training, its parameters are adjusted to reduce prediction error. The validation set contains examples that are not used for optimization. If training loss falls while validation loss rises, the model may be overfitting. Data quality and sufficient training matter. A small test corpus can verify that a pipeline works, but it cannot teach a broad understanding of language.
+
+Eine Datenbank speichert strukturierte Informationen. SQLite kann eine lokale Datenbank in einer Datei verwalten. Eine Transaktion fasst mehrere Änderungen zusammen. Ein Index kann bestimmte Suchanfragen beschleunigen. Persönliche Präferenzen können sich im Laufe der Zeit verändern. Daher helfen Zeitstempel dabei, ältere und neuere Angaben auseinanderzuhalten. Nicht jede Nachricht enthält eine dauerhafte Information. Eine kurze Begrüßung muss zum Beispiel nicht gespeichert werden.
+
+def mean(values):
+    if not values:
+        raise ValueError('values must not be empty')
+    return sum(values) / len(values)
+
+Für ein längeres Projekt kann man eine Aufgabe in kleine Schritte aufteilen. Zuerst wird ein überprüfbares Ergebnis festgelegt. Danach folgt eine einfache funktionierende Umsetzung. Tests zeigen, ob das Ergebnis den Anforderungen entspricht. Ein Fehler wird anhand eines konkreten Beispiels untersucht. Nach der Korrektur wird dasselbe Beispiel erneut geprüft. Änderungen sollten nachvollziehbar bleiben, damit spätere Probleme leichter eingegrenzt werden können.
