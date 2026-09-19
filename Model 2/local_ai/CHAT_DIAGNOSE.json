@@ -1,0 +1,128 @@
+{
+  "no_training": true,
+  "device": "cuda",
+  "data": {
+    "conversations_by_source_and_language": {
+      "OpenAssistant/oasst2 / en": 3838,
+      "OpenAssistant/oasst2 / de": 418,
+      "FreedomIntelligence/alpaca-gpt4-deutsch / de": 48381
+    },
+    "windows": 53103,
+    "input_positions_in_corpus": 54377472,
+    "nonpadding_positions_in_corpus": 14081710,
+    "supervised_answer_tokens_in_corpus": 9342678,
+    "sampled_windows_per_sft_run": 48000,
+    "equivalent_dataset_passes_per_sft_run": 0.9039037342523021
+  },
+  "models": [
+    {
+      "run": "real_v1",
+      "stage": "sft",
+      "step": 3000,
+      "tokenizer_hash": "138465e46d068a40a1226c386a5e391f9a45ba3aafcd59de1456a1af9c27745a",
+      "best_validation_loss": 3.264801768239109,
+      "probes": [
+        {
+          "question": "Hallo, wer bist du?",
+          "answer": "Klar! Hier ist eine Liste von Informationen über die Bedeutung von \"kleinen\" und \"schlecht\" in der Geschichte:\n\n1. Was ist die Welt, die wir uns heute kennenlernen möchten?\n2. Wie ist die Welt, die wir uns heute kennenlernen?\n3. Wie ist die Welt",
+          "history": "fresh",
+          "temperature": 0
+        },
+        {
+          "question": "Erkläre mir, warum der Himmel blau ist.",
+          "answer": "Der Himmel ist hell und die Sonne ist hell und die Sonne ist hell.",
+          "history": "fresh",
+          "temperature": 0
+        },
+        {
+          "question": "Schreibe drei zusammenhängende Sätze über einen Hund.",
+          "answer": "1. \"Ich bin ein AI-Sprachmodell, das ich nicht tun kann.\"\n2. \"Ich bin ein AI-Sprachmodell, das ich nicht tun kann.\"\n3. \"Ich bin ein AI-Sprachmodell, das ich nicht tun kann.\"\n4. \"Ich bin ein AI-Sprachmodell, das ich nicht",
+          "history": "fresh",
+          "temperature": 0
+        },
+        {
+          "question": "Was ist 17 + 26?",
+          "answer": "Die 17 + 27 sind zwei verschiedene Arten von Personen, die in der Lage sind, ihre eigenen Bedürfnisse zu erfüllen. Einige sind:\n\n1. Der erste Mann ist ein Mann mit einem kleinen, aber nicht-johnhaften Mann, der eine starke Persönlichkeit hat. Er ist ein Mann mit einem kleinen, aber nicht",
+          "history": "fresh",
+          "temperature": 0
+        },
+        {
+          "question": "Merke dir: Mein Lieblingswort ist Banane. Was ist mein Lieblingswort?",
+          "answer": "Mein Lieblingswort ist Tasse. Wie viel Geld für die Welt hat, ist es wichtig, dass Sie Ihre Lieblingswörter in Ihrem Lieblingswort verwenden können.",
+          "history": "fresh",
+          "temperature": 0
+        }
+      ],
+      "first_sft_row_input_matches_source": true,
+      "first_sft_row_shifted_labels_match_source": true,
+      "without_date": "Klar! Hier ist eine Liste von Informationen, die Sie in der Liste finden können:\n\n1. **Bist du mit dem Namen:** Bist du mit dem Namen:** Bist du mit dem Namen:** Bist du mit dem Namen:** Bist du mit dem Namen:** Bist du mit dem Namen:**",
+      "without_cache": "Klar! Hier ist eine Liste von Informationen, die Sie in der Liste finden können:\n\n1. **Bist du mit dem Namen:** Bist du",
+      "cache_same_first_32_tokens": true
+    },
+    {
+      "run": "real_v2",
+      "stage": "sft",
+      "step": 2900,
+      "tokenizer_hash": "138465e46d068a40a1226c386a5e391f9a45ba3aafcd59de1456a1af9c27745a",
+      "best_validation_loss": 3.0145892427224865,
+      "probes": [
+        {
+          "question": "Hallo, wer bist du?",
+          "answer": "Es tut mir leid, aber ich bin ein KI-Sprachmodell und habe nicht die Fähigkeit, visuelle Elemente zu erstellen. Ich kann Ihnen jedoch einige Ideen und Vorschläge geben, um Sie bei der Erstellung eines visuellen Elementens zu unterstützen.\n\n1. **Bildgestaltung:** Ein Bild wird erstellt, indem man Bilder in einer großen",
+          "history": "fresh",
+          "temperature": 0
+        },
+        {
+          "question": "Erkläre mir, warum der Himmel blau ist.",
+          "answer": "Der Himmel ist blau.",
+          "history": "fresh",
+          "temperature": 0
+        },
+        {
+          "question": "Schreibe drei zusammenhängende Sätze über einen Hund.",
+          "answer": "1. \"Ich habe einen Hund in der Nähe eines anderen. Ich habe einen Hund in der Nähe eines anderen. Ich habe einen Hund in der Nähe eines anderen. Ich habe einen Hund in der Nähe eines anderen. Ich habe einen Hund in der Nähe eines anderen. Ich habe einen Hund in der Nähe eines anderen. Ich",
+          "history": "fresh",
+          "temperature": 0
+        },
+        {
+          "question": "Was ist 17 + 26?",
+          "answer": "17 + 26 ist der erste Tag in der Geschichte der Menschheit.",
+          "history": "fresh",
+          "temperature": 0
+        },
+        {
+          "question": "Merke dir: Mein Lieblingswort ist Banane. Was ist mein Lieblingswort?",
+          "answer": "Mein Lieblingswort ist Apfel.",
+          "history": "fresh",
+          "temperature": 0
+        }
+      ],
+      "first_sft_row_input_matches_source": true,
+      "first_sft_row_shifted_labels_match_source": true,
+      "without_date": "Ich bin ein AI-Sprachmodell und habe nicht die Fähigkeit, Aufgaben auszuführen. Ich kann Ihnen jedoch einige Tipps geben, um Ihnen bei der Lösung von Problemen zu helfen:\n\n1. **Verhalten Sie bei der Lösung von Problemen:** Stellen Sie sicher, dass Sie Ihre Probleme genau und effektiv lösen können. Dies hilft Ihnen",
+      "without_cache": "Ich bin ein AI-Sprachmodell und habe nicht die Fähigkeit, Aufgaben auszuführen. Ich kann Ihnen jedoch einige Tipps geben, um Ihnen bei der Lösung von Problemen zu helfen",
+      "cache_same_first_32_tokens": true
+    },
+    {
+      "run": "real_v2",
+      "stage": "pretrain",
+      "step": 84500,
+      "tokenizer_hash": "138465e46d068a40a1226c386a5e391f9a45ba3aafcd59de1456a1af9c27745a",
+      "best_validation_loss": 2.908974597851435,
+      "probes": [
+        {
+          "prefix": "Die Hauptstadt von Österreich ist",
+          "completion": " die Hauptstadt des österreichischen Bundeslandes Burgenland.\n\nGeographie \nDie Hauptstadt befindet sich im Norden der Stadt, im Süden der Stadt, im Westen der Stadt. Die Hauptstadt liegt auf einer Höhe von  und hat eine Fläche von rund 3,5 km².\n\nGeschichte \n\nDer Name der Hauptstadt leitet"
+        },
+        {
+          "prefix": "Ein Hund ist ein Haustier. Er",
+          "completion": " besteht aus einem Hund, der in einer bestimmten Zeit mit dem Hund auftaucht und dann von einem Hund auf den anderen ausgeht.\n\nDer Hund hat eine große Bedeutung für die Ernährung und die Ernährung der Tiere. Er wird als „Hunde“ bezeichnet und ist ein wichtiger Bestandteil des menschlichen Lebens.\n\nGeschichte"
+        },
+        {
+          "prefix": "Pflanzen brauchen zum Wachsen",
+          "completion": " des Wassers (engl.  ‚Wasserkraft‘)\n\nDie Energie der Luft wird durch die Wärmeenergie in Form von Wärme und Wärme erzeugt, die durch den Druck auf das Wasser in der Luft fließt. Die Wärmeenergie wird durch die Wärmeenergie in Form von Wärme oder Wärme umgewandelt.\n\nDie Wärme"
+        }
+      ]
+    }
+  ]
+}

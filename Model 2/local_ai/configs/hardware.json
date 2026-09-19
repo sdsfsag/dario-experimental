@@ -1,0 +1,63 @@
+{
+  "hardware": {
+    "device": "cuda",
+    "torch": "2.11.0+cu128",
+    "cuda_build": "12.8",
+    "cuda_available": true,
+    "ram_gib": 31.06,
+    "ram_available_gib": 12.72,
+    "cpu_threads": 8,
+    "bf16": true,
+    "fp16": true,
+    "gpus": [
+      {
+        "index": 0,
+        "name": "NVIDIA GeForce RTX 5070 Ti",
+        "vram_gib": 15.92,
+        "free_vram_gib": 14.6,
+        "compute_capability": [
+          12,
+          0
+        ]
+      }
+    ]
+  },
+  "presets": {
+    "test": {
+      "parameters": 4563584,
+      "estimated_training_gib": 1.18,
+      "measured": {
+        "parameters": 4563584,
+        "dtype": "torch.bfloat16",
+        "loss": 8.125938415527344,
+        "seconds": 0.835,
+        "peak_allocated_gib": 0.139,
+        "peak_reserved_gib": 0.172
+      }
+    },
+    "balanced": {
+      "parameters": 100682496,
+      "estimated_training_gib": 3.73,
+      "measured": {
+        "parameters": 100682496,
+        "dtype": "torch.bfloat16",
+        "loss": 8.737838745117188,
+        "seconds": 0.995,
+        "peak_allocated_gib": 1.721,
+        "peak_reserved_gib": 1.867
+      }
+    },
+    "maximum_practical": {
+      "parameters": 213943296,
+      "estimated_training_gib": 5.88,
+      "measured": {
+        "parameters": 213943296,
+        "dtype": "torch.bfloat16",
+        "loss": 8.897281646728516,
+        "seconds": 2.019,
+        "peak_allocated_gib": 3.605,
+        "peak_reserved_gib": 3.635
+      }
+    }
+  }
+}
