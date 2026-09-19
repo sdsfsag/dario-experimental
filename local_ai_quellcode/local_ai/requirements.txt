@@ -1,6 +1,0 @@
-torch>=2.7,<3
-tokenizers>=0.21,<1
-numpy>=1.26,<3
-psutil>=6,<8
-pytest>=8,<10
-pyarrow>=18,<24
