@@ -1,4 +1,4 @@
-# Gespraechsqualitaet nach real_v2
+# Gespraechsqualitaet nach model 2
 
 Pruefung am 18.09.2026. Es wurde kein weiterer Trainingslauf gestartet und
 keine Gewichtedatei oder Erinnerungsdatenbank geaendert.
