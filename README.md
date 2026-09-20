@@ -2,49 +2,47 @@
 
 > Experimental AI project built from the ground up.
 
-**Dario Experimental** ist eine experimentelle Variante von **Dario AI**, bei der der Fokus vollständig auf der eigentlichen KI liegt.
+**Dario Experimental** is an experimental variant of **Dario AI** that focuses entirely on the AI itself.
 
-Im Gegensatz zur normalen Version von Dario AI verwendet Dario Experimental **kein Qwen, Llama oder anderes vortrainiertes Sprachmodell**. Die KI wird stattdessen **von Grund auf selbst entwickelt** – inklusive Architektur, Training, Speicherlogik und Textverarbeitung.
+Unlike the regular version of Dario AI, Dario Experimental does **not use Qwen, Llama, or any other pretrained language model**. Instead, the AI is **developed entirely from scratch** — including its architecture, training, memory logic, and text processing.
 
 ---
 
 ## What is Dario Experimental?
 
-Dario Experimental ist eine Plattform zum Experimentieren mit einer komplett eigenen KI.
+Dario Experimental is a platform for experimenting with a completely custom-built AI.
 
-Aktuell läuft das Projekt ausschließlich über das **Terminal** und verzichtet bewusst auf unnötige UI-Elemente. Dadurch liegt der Fokus vollständig auf der Entwicklung und Verbesserung des KI-Systems.
+The project currently runs exclusively through the **terminal** and intentionally avoids unnecessary UI elements. This allows the focus to remain entirely on developing and improving the AI system itself.
 
-Das Projekt ist speziell für eine:
+The project is specifically optimized for an:
 
-**NVIDIA GeForce RTX 5070 Ti – 16 GB VRAM**
+**NVIDIA GeForce RTX 5070 Ti — 16 GB VRAM**
 
-optimiert.
-
-Dadurch können Modellgröße, Training, Speicherverbrauch und Performance gezielt auf diese Hardware abgestimmt werden.
+This makes it possible to fine-tune the model size, training process, memory usage, and performance specifically for this hardware.
 
 ---
 
 ## Goals
 
-* Eigene KI-Architektur
-* Keine vortrainierten LLMs
-* Eigenes Training
-* Eigene Tokenisierung
-* Eigene Textverarbeitung
-* Kurzzeit- und Langzeiterinnerung
-* Optimierung für 16 GB VRAM
-* Terminal-basierte Benutzeroberfläche
-* Fokus auf KI-Qualität statt UI
-* Experimentieren mit Verhalten, Lernen und Erinnerung
-* Möglichst wenig Abhängigkeit von bestehenden KI-Systemen
+* Custom AI architecture
+* No pretrained LLMs
+* Custom training
+* Custom tokenization
+* Custom text processing
+* Short-term and long-term memory
+* Optimization for 16 GB VRAM
+* Terminal-based user interface
+* Focus on AI quality rather than UI
+* Experimentation with behavior, learning, and memory
+* As little dependency on existing AI systems as possible
 
 ---
 
-## Built from scratch
+## Built from Scratch
 
-Das Ziel von Dario Experimental ist nicht, einfach ein bestehendes Modell zu verändern oder zu fine-tunen.
+The goal of Dario Experimental is not to simply modify or fine-tune an existing model.
 
-Die KI soll möglichst vollständig selbst entwickelt werden.
+The AI is intended to be developed as independently as possible from the ground up.
 
 ```text
 No Qwen
@@ -57,33 +55,33 @@ Just Dario Experimental.
 
 ---
 
-## Experimental by design
+## Experimental by Design
 
-Dario Experimental ist bewusst kein fertiges Produkt.
+Dario Experimental is intentionally **not a finished product**.
 
-Architektur, Trainingsmethoden, Speichermechanismen und Verhalten können sich jederzeit ändern.
+Its architecture, training methods, memory systems, and behavior can change at any time.
 
-Das Projekt dient dazu, neue Ideen auszuprobieren, Systeme umzubauen und herauszufinden, wie weit eine selbst entwickelte KI auf Consumer-Hardware gebracht werden kann.
+The project exists to experiment with new ideas, rebuild systems, test different approaches, and find out how far a completely custom-built AI can be pushed on consumer hardware.
 
 ---
 
-## Not a replacement for Dario AI
+## Not a Replacement for Dario AI
 
-> **Dario Experimental ersetzt Dario AI nicht.**
+> **Dario Experimental does not replace Dario AI.**
 
-**Dario AI** bleibt das normale und vollständige Dario-Projekt mit bestehenden Modellen, Features und Benutzeroberflächen.
+**Dario AI** remains the regular and complete Dario project with existing models, features, and user interfaces.
 
-**Dario Experimental** ist ein separates Forschungs- und Entwicklungsprojekt.
+**Dario Experimental** is a separate research and development project.
 
-Beide Projekte verfolgen unterschiedliche Ziele:
+Both projects have different goals:
 
-| Dario AI               | Dario Experimental         |
-| ---------------------- | -------------------------- |
-| Produktive Nutzung     | Experimente & Forschung    |
-| Bestehende KI-Modelle  | Eigene KI von Grund auf    |
-| Umfangreiche Features  | Fokus auf das KI-System    |
-| UI + andere Interfaces | Terminal                   |
-| Stabilität             | Experimentelle Entwicklung |
+| Dario AI              | Dario Experimental           |
+| --------------------- | ---------------------------- |
+| Production use        | Experiments & research       |
+| Existing AI models    | Custom AI built from scratch |
+| Extensive features    | Focus on the AI system       |
+| UI + other interfaces | Terminal                     |
+| Stability             | Experimental development     |
 
 ---
 
@@ -96,19 +94,3 @@ Interface: Terminal
 AI Model: Custom
 Status: Experimental
 ```
-
----
-
-## Status
-
-**Early Experimental Development**
-
-Dario Experimental befindet sich in aktiver Entwicklung.
-
-Features können unvollständig sein, sich stark verändern oder komplett entfernt und neu gebaut werden.
-
----
-
-**Dario Experimental**
-
-*Build it. Train it. Break it. Improve it.*
